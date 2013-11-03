@@ -1,0 +1,13 @@
+#app/models/delayed_job.rb
+
+class ResqueJob
+  def initialize i
+    @id = i
+  end
+
+  def perform
+    # simulate doing some work that takes a while
+    sleep 4
+    puts "Complete work #{@id}"
+  end
+end

@@ -1,0 +1,13 @@
+# app/controllers/dj_controller.rb
+
+class DjController < ApplicationController
+  def index
+    [1..10].each do |i|
+      puts "Adding to queue job #{i}"
+      Resque.enqueue(ResqueJob, i)
+
+      # simulate time between request
+      sleep 1.5
+    end
+  end
+end
