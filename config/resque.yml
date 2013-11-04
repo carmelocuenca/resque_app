@@ -1,4 +1,3 @@
 development: localhost:6379
 staging:     localhost:6379
-production:  redis://rediscloud:NcEstabVPH4O5igC@pub-redis-19120.us-east-1-2.1.ec2.garantiadata.com:19120
-
+production:  redis://rediscloud:JwYg7Y9ltOgGwJMT@pub-redis-19375.us-east-1-2.1.ec2.garantiadata.com:19375
