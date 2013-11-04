@@ -6,7 +6,7 @@ gem 'rails', '4.0.0'
 
 # gem "resque" # , "~> 2.0.0.pre.1", github: "resque/resque"
 gem 'resque', git: 'https://github.com/hone/resque.git', branch: 'heroku', require: 'resque/server'
-gem 'redis'
+# gem 'redis'
 
 # Use sqlite3 as the database for Active Record
 group :development do 
